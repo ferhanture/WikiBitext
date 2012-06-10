@@ -1,19 +1,22 @@
-// README (created on 3/30/2012 by Ferhan Ture, fture@cs.umd.edu)
+README 
+------
+(created 3/30/12, updated 6/10/12, by Ferhan Ture, fture@cs.umd.edu)
 
-// Mapping from Wikipedia internal docids to docnos used in our system.
+Mapping from Wikipedia internal docids to docnos used in our system.
 
-dewiki_docno-mapping.dat = mapping from German Wikipedia internal docids to our docnos (to use this, see class edu.umd.cloud9.collection.DocnoMapping in our Cloud9 code library: http://lintool.github.com/Cloud9)
+`dewiki_docno-mapping.dat` = mapping from German Wikipedia internal docids to our docnos (to use this, see class edu.umd.cloud9.collection.DocnoMapping in our Cloud9 code library: http://lintool.github.com/Cloud9)
 enwiki_docno-mapping.dat = mapping from English Wikipedia internal docids to our docnos
 dewiki_docno-mapping.txt = same as dewiki_docno-mapping.dat, in text format.
 enwiki_docno-mapping.txt = same as enwiki_docno-mapping.dat, in text format.
 
 ( format: [Wikipedia docid]\t[docno] )
 
+```
 $ head -3 enwiki_docno-mapping.txt
 12	1
 25	2
 39	3
-
+```
 ---------------------------------
 
 // Similar German-English document pairs found by the cross-lingual pwsim algorithm (and ground truth pairs), as described in Ture, Lin and Elsayed, SIGIR 2011.
