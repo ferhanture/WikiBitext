@@ -4,7 +4,7 @@ README
 
 Mapping from Wikipedia internal docids to docnos used in our system.
 
-`dewiki_docno-mapping.dat` = mapping from German Wikipedia internal docids to our docnos (to use this, see class edu.umd.cloud9.collection.DocnoMapping in our Cloud9 code library: http://lintool.github.com/Cloud9)
+`dewiki_docno-mapping.dat` = mapping from German Wikipedia internal docids to our docnos (to use this, see class edu.umd.cloud9.collection.DocnoMapping in our [Cloud9 code library]: http://lintool.github.com/Cloud9)
 enwiki_docno-mapping.dat = mapping from English Wikipedia internal docids to our docnos
 dewiki_docno-mapping.txt = same as dewiki_docno-mapping.dat, in text format.
 enwiki_docno-mapping.txt = same as enwiki_docno-mapping.dat, in text format.
