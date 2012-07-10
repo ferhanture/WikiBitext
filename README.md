@@ -77,7 +77,9 @@ $ head -3 interwiki-links.en2de
 ----------------------------------
 
 // Bitext extracted from German and English Wikipedia, using the algorithm described in Ture and Lin, NAACL-HLT 2012.
+
 // This bitext was the best performing in our experiments (see paper), where we used the two-stage classification approach: 
+
 // Threshold of 0.98 was applied on simple classifier in first stage (output = 13,746,173 pairs), and a 0.60 threshold was applied on the complex classifier in the second stage (final output = 5,761,517 pairs). 
 
 `bitext-wiki_de-en.de.bz2` = German side of the bitext, lowercased, no tokenization, bz2-compressed. 
@@ -100,7 +102,9 @@ on december 30, 2006, saddam hussein was hanged.
 --------------------------------- 
 
 // Second version of German-English bitext, after a series of changes to our bitext extraction code, and with casing preserved.
+
 // This bitext has not been evaluated on MT training yet.
+
 // Threshold of 0.98 was applied on simple classifier in first stage (output = 16,139,076 pairs), and a 0.62 threshold was applied on the complex classifier in the second stage (final output = 5,404,313 pairs).
 
 `bitext-wiki-v2_de-en.de.bz2` = German side of the bitext, in raw format (no tokenization or lowercasing).
